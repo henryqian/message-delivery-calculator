@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EMM Delivery Hit Rate Caculator",
+  title: "EMM Delivery Hit Rate Calculator",
 };
 
 export default function RootLayout({
