@@ -70,12 +70,8 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-12 px-4">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-5xl font-black text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-600">
-          Real Serial Push Delivery Calculator
+          EMM Delivery Hit Rate Calculator
         </h1>
-        <p className="text-center text-gray-700 mb-12 text-lg font-medium">
-          Instant device-online checking · Accurate serial push model · Production-ready
-        </p>
-
         <div className="grid lg:grid-cols-2 gap-10">
           {/* 左侧 参数 */}
           <Card className="shadow-2xl">
