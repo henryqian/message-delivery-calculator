@@ -177,14 +177,13 @@ export default function Home() {
   const targetResultFixed = getRoundsForTargetFromSchedule(scheduleFixed);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 py-12 px-2">
-      <div className="mx-auto" style={{ maxWidth: "1600px" }}>
-        <h1 className="text-5xl font-black text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 to-purple-700">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-12 px-4">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-5xl font-black text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-600">
           EMM Delivery Hit Rate Calculator
         </h1>
-
-        {/* 第一行：Settings */}
-        <div className="mb-10">
+        <div className="grid lg:grid-cols-2 gap-10">
+          {/* 左侧 参数 */}
           <Card className="shadow-2xl">
             <CardHeader><CardTitle className="text-2xl">Settings</CardTitle></CardHeader>
             <CardContent className="space-y-8">

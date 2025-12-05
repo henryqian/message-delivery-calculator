@@ -5,8 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KMS Delivery Hit Rate Calculator",
-  description: "Calculates the number of delivery rounds to cover the target user proportion",
+  title: "EMM Delivery Hit Rate Calculator",
 };
 
 export default function RootLayout({
