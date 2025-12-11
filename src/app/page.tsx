@@ -206,22 +206,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                {/* 中列：Sample Size for Fixed-order */}
-                <div className="space-y-8">
-                  <div>
-                    <Label className="text-lg">Sample Size for Fixed-order</Label>
-                    <Slider value={[sampleSize]} onValueChange={v => setSampleSize(v[0])}
-                      min={100} max={200000} step={100} className="mt-4" />
-                    <div className="text-center text-4xl font-black text-primary mt-8">
-                      {sampleSize}
-                    </div>
-                    <div className="text-sm text-muted-foreground mt-2 text-center">
-                      samples （Larger sample size stabilizes fixed-order results）
-                    </div>
-                  </div>
-                </div>
-
                 {/* 右列：Target Coverage Rate */}
                 <div className="space-y-8">
                   <div>
