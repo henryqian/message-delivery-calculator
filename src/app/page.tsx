@@ -206,6 +206,11 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                
+                {/* 中列：empty */}
+                <div className="space-y-8">
+                </div>
+
                 {/* 右列：Target Coverage Rate */}
                 <div className="space-y-8">
                   <div>
