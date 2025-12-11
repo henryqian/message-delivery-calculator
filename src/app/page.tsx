@@ -206,7 +206,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
+/*
                 {/* 中列：Sample Size for Fixed-order */}
                 <div className="space-y-8">
                   <div>
@@ -221,7 +221,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
+*/
                 {/* 右列：Target Coverage Rate */}
                 <div className="space-y-8">
                   <div>
